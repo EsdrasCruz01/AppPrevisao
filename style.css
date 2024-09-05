@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 200%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #a9a2a0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa-maior {
+  background-color: bisque;
+  color: black;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input {
+  outline: none;
+}
+
+.caixa-pequena {
+  display: flex;
+  align-items: center;
+}
+
+.btn-pesquisa {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.previsao {
+  text-transform: capitalize;
+}
+
+button {
+  cursor: pointer;
+}
