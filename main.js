@@ -22,5 +22,5 @@ function ExibirDados(Dados) {
   document.querySelector('.Previsao').innerHTML = Dados.weather[0].description
   document.querySelector('.umidade').innerHTML = Dados.main.humidity + "%"
   document.querySelector('.img').src = `https://openweathermap.org/img/wn/${Dados.weather[0].icon}.png`
-  document.querySelector('.TemperaturaM').innerHTML = Dados.main.temp_max + " °C"
+  document.querySelector('.TemperaturaM').innerHTML = Dados.main.temp_max + " °C Temperatura Máxima"
 }
